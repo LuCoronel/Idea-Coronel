@@ -39,9 +39,9 @@ nav li a:hover{
   width: 100%;
 }
 .aparecer{
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: aparecer;
-  animation-iteration-count: infinite;
+  animation-iteration-count: initial;
 }
 @keyframes aparecer {
   0% {
@@ -140,7 +140,7 @@ footer div form input{
   padding-bottom: 20px;
 }
 .productoHover{
-  opacity: .5;
+  opacity: 0.70;
   transition: all 1s ease;
 }
 .productoHover:hover{
@@ -206,3 +206,17 @@ form input{
 h3{
   padding: 10px;
 }
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.producto{
+  margin-left: 415px;
+  width: 400px;
+  height: 600px;
+  margin-bottom: 10px;
+}
+
+

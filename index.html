@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap"rel="stylesheet">
     <link rel="icon" href="media/Favicon2Recurso 2.png">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Mermaid</title>
-    
   </head>
   <body>
     <!-- HEADER -->
@@ -20,6 +20,7 @@
           <!-- LOGO -->
           <a href="index.html"><img class="logoMenu" src="media/Logo lila_Logo.png" width="200px" alt="Logo" title="Logo Mermaid"></a>
             <ul>
+              <li><a href="../index.html" class="destaqueRosa">INICIO</a></li>
               <li><a href="pages/coleccion.html" class="destaqueRosa">COLECCIÓN</a></li>
               <li><a href="pages/sobreNosotrxs.html"class="destaqueRosa">NOSOTRXS</a></li>
               <li><a href="pages/carrito.html"class="destaqueRosa">CARRITO</a></li>
@@ -32,19 +33,48 @@
     <!-- IMAGEN HOME -->
       <section class="gifHome">
         <!-- Insertar gif -->
-        <div class="aparecer"><img src="media/Gifhome.gif">
+        <div class="aparecer"><video src="media/Home.mp4" loop controls>
+          Tu navegador no implementa el elemento <code>Video</code>
+          </video>
       </div>
       </section>
       <!-- CARDS DESTACADOS -->
       <section class="productos">
           <h2>DESTACADOS</h2>
-          <div class="grid2">
-            <div class="producto"><img class="galeria" src="media/foto1.png" width="300px" alt="malla enteriza celeste"" width="300" height="450"></div>
-            <div class="producto"><img class="galeria" src="media/Screen Shot 2021-07-16 at 17.23.51.png"
-              alt="malla rosa corset" width="300" height="450" alt="Enteriza Mariyn"></div>
-            <div class="producto"><img class="galeria" src="media/Screen Shot 2021-07-16 at 17.52.54.png"
-              width="300"
-              alt="enteriza fuccia loba"></div>
+            <div class="producto">
+              <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="media/3-.jpeg" alt="Los Angeles" width="300" height="450">
+                    <div class="carousel-caption">
+                      <h3>Enteriza Etam</h3>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/2-.jpeg" alt="Chicago" width="300" height="450">
+                    <div class="carousel-caption">
+                      <h3>Megan</h3>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/1-.jpeg" alt="New York">
+                    <div class="carousel-caption">
+                      <h3>Mermaid pink</h3>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
       </section>
     <footer>
       <div class="footer2">
@@ -53,7 +83,7 @@
         <a class="logosRedes" href="#"><img src="media/mail.gif" alt="gif mail">Contacto</a>
       </div>
       <div class="footer1">
-        <h3 class="destaqueRosa">ACCEDÉ A EXCLUSIVOS DESCUENTOS</>
+        <h3 class="destaqueRosa">ACCEDÉ A EXCLUSIVOS DESCUENTOS </>
         <form class="formulario1" action="#" method="POST">
         <input type="email" placeholder="Ingresá tu email" required>
         <button type="submit">SUSCRIBIRME!</button>
@@ -63,6 +93,11 @@
       <p class="registro">© 2021 Powered by Lulú</p>
     </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
   </html>
   
+
