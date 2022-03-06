@@ -1,0 +1,23 @@
+{
+  "name": "idea-coronel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuCoronel/Idea-Coronel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuCoronel/Idea-Coronel/issues"
+  },
+  "homepage": "https://github.com/LuCoronel/Idea-Coronel#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
