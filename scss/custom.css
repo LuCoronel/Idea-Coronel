@@ -1,3 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #c78ebe;
+  display: -ms-grid;
+  display: grid;
+}
+
+h2, .h2 {
+  color: #75c8dc;
+  font-weight: bolder;
+}
+
+.carrito {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  padding: 10px;
+  justify-items: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 180px;
+  gap: 5px;
+  justify-items: center;
+  padding-right: 180px;
+  padding-bottom: 20px;
+}
+
+.producto {
+  margin-left: 10px;
+  width: 400px;
+  height: 600px;
+  margin-bottom: 5px;
+}
+
+.productoHover {
+  opacity: 0.70;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.productoHover:hover {
+  opacity: 1;
+}
+
+.productoNombre {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  color: #462040;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+.productoPrecio {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  color: #462040;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+footer {
+  padding: 30px 20px 50px 50px;
+  border-top: 0.05px solid #c6aad1;
+}
+
+footer div a {
+  text-decoration: none;
+  color: #c6aad1;
+  padding: 5px;
+}
+
+footer div form button {
+  padding: 8px;
+  background-color: #9fe1f2;
+  font-family: "Montserrat", 300;
+  color: #351b31;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #3d8a9d;
+}
+
+footer div form input {
+  padding: 8px;
+  font-family: "Montserrat", 300;
+  width: 230px;
+  border-color: #3d8a9d;
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+.footer2 {
+  margin: 10px 150px;
+  display: inline-block;
+  font-size: 16px;
+  -ms-flex-line-pack: left;
+      align-content: left;
+}
+
+.formulario1 {
+  margin-top: 10px;
+}
+
+.destaqueRosa {
+  color: #c78ebe;
+}
+
+.destaqueCeleste {
+  color: #75c8dc;
+}
+
+.logosRedes img {
+  width: 1.3rem;
+  padding: 1px;
+}
+
+nav {
+  width: 100%;
+  height: 6rem;
+}
+
+nav a img {
+  position: absolute;
+  padding: 4px;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1px;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+@-webkit-keyframes "aparecer" {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes "aparecer" {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.gifHome {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.aparecer {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+#carousel {
+  margin-left: 400px;
+}
+
+.productoHome {
+  margin-left: 415px;
+  width: 400px;
+  height: 600px;
+  margin-bottom: 10px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
