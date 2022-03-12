@@ -168,30 +168,6 @@ nav li a:hover {
   font-weight: bold;
 }
 
-@-webkit-keyframes "aparecer" {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes "aparecer" {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
 .gifHome {
   padding: 10px;
   display: -webkit-box;
