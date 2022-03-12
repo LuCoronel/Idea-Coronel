@@ -1,0 +1,36 @@
+@keyframes "aparecer" {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+.gifHome {
+	padding: 10px;
+	display: flex;
+	width: 100%;
+}
+.aparecer {
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: initial;
+}
+.carousel-inner {
+	width: 100%;
+	height: 100%;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+#carousel {
+	margin-left: 400px;
+}
+.productoHome {
+	margin-left: 415px;
+	width: 400px;
+	height: 600px;
+	margin-bottom: 10px;
+}

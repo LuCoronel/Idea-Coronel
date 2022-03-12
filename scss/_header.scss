@@ -1,0 +1,28 @@
+nav {
+	a {
+		img {
+			position: absolute;
+			padding: 4px;
+		}
+	}
+	width: 100%;
+	height: 6rem;
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		padding: 1px;
+		a {
+			text-decoration: none;
+			padding: 1rem;
+			display: block;
+		}
+	}
+	li {
+		a {
+			&:hover {
+				font-weight: bold;
+			}
+		}
+	}
+}

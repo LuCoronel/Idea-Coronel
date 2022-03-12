@@ -1,0 +1,29 @@
+h2 {
+	text-align: center;
+	color: #75c8dc;
+	font-size: 33px;
+	font-family: "Montserrat", 300;
+	padding: 20px;
+}
+p {
+	color: #c6aad1;
+	text-align: center;
+	text-align: justify;
+}
+.article {
+	background-image: url(Media/peces3.png);
+	margin-bottom: 5px;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 23px;
+	flex: 5;
+	padding: 5rem;
+	color: #c6aad1;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+#main {
+	display: flex;
+	margin-top: 20px;
+	margin-right: 10px;
+}

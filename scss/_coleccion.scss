@@ -1,0 +1,44 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 180px;
+	gap: 5px;
+	justify-items: center;
+	padding-right: 180px;
+	padding-bottom: 20px;
+}
+.producto {
+	margin-left: 10px;
+	width: 400px;
+	height: 600px;
+	margin-bottom: 5px;
+}
+.productoHover {
+	opacity: 0.70;
+	transition: all 1s ease;
+	&:hover {
+		opacity: 1;
+	}
+}
+.productoNombre {
+	font-family: "Montserrat";
+	font-size: 1.3rem;
+	color: #462040;
+	margin: 1rem 1rem;
+	text-align: center;
+}
+.productoPrecio {
+	font-family: "Montserrat";
+	font-size: 1.3rem;
+	color: #462040;
+	margin: 1rem 1rem;
+	text-align: center;
+}

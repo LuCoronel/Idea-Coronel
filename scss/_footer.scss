@@ -1,0 +1,51 @@
+footer {
+	padding: 30px 20px 50px 50px;
+	border-top: 0.05px solid #c6aad1;
+	div {
+		a {
+			text-decoration: none;
+			color: #c6aad1;
+			padding: 5px;
+		}
+		form {
+			button {
+				padding: 8px;
+				background-color: #9fe1f2;
+				font-family: "Montserrat", 300;
+				color: #351b31;
+				border-radius: 2px;
+				border-width: 1px;
+				border-color: #3d8a9d;
+			}
+			input {
+				padding: 8px;
+				font-family: "Montserrat", 300;
+				width: 230px;
+				border-color: #3d8a9d;
+				border-width: 1px;
+				border-radius: 2px;
+			}
+		}
+	}
+}
+.footer2 {
+	margin: 10px 150px;
+	display: inline-block;
+	font-size: 16px;
+	align-content: left;
+}
+.formulario1 {
+	margin-top: 10px;
+}
+.destaqueRosa {
+	color: #c78ebe;
+}
+.destaqueCeleste {
+	color: #75c8dc;
+}
+.logosRedes {
+	img {
+		width: 1.3rem;
+		padding: 1px;
+	}
+}
