@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/LuCoronel/Idea-Coronel/issues"
   },
-  "homepage": "https://github.com/LuCoronel/Idea-Coronel#readme",
-  "dependencies": {
-    "bootstrap": "^5.1.3"
-  }
+  "homepage": "https://github.com/LuCoronel/Idea-Coronel#readme"
 }
